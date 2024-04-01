@@ -63,8 +63,12 @@ public class ArrayListTest1 {
 		
 		//외부 반복자(Iterator 인터페이스) : Iterable 인터페이스의 하위 인터페이스
 		//Collection Interface를 상속받은 모든 하위 인터페이스들의 구현 클래스들에서 모두 사용이 가능
-		Iterator iter = list.iterator();
+		Iterator<String> iter = list.iterator();
 		while(iter.hasNext()) {
+			String str = iter.next();
+			Object str1 = iter.next();
+			System.out.println(str);
+			System.out.println(str1);
 			System.out.println(iter.next());
 		}
 		
