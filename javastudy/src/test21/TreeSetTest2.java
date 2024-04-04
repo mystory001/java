@@ -57,7 +57,7 @@ public class TreeSetTest2{
 		set.add("B");
 		
 		System.out.println(set);
-		System.out.println(set.descendingSet());
+		System.out.println("descendingSet() 메소드 : "+set.descendingSet());
 		
 		System.out.println();
 		
@@ -83,7 +83,5 @@ public class TreeSetTest2{
 		
 		
 	}
-
-
 
 }
